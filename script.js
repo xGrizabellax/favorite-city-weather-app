@@ -18,6 +18,10 @@ function fetchData(){
     .then(function(weatherData) {
       console.log(weatherData)
     })
+    for (var i = 0; i < weatherData.length; i++) {
+        
+    }
 }
 
 button.addEventListener('click', fetchData)
+
